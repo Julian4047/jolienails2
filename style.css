@@ -1,0 +1,104 @@
+            @font-face {
+                font-family: "la_muselle_regular";
+                src: url(./La\ Muselle.otf);
+            }
+            
+            body {
+                background: rgb(255, 255, 255);
+                background: linear-gradient(90deg, rgba(255, 255, 255, 0.6642335766423357) 0%, rgba(129, 130, 133, 0.3638443935926774) 50%, rgba(255, 60, 0, 0) 100%);
+                min-height: calc(100vh -100px);
+                display: grid;
+            }
+            
+            .title {
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                line-height: 50px;
+                font-family: "la_muselle_regular";
+            }
+            
+            .subtitle h2 {
+                font-family: "la_muselle_regular";
+                font-size: 100px;
+                text-align: center;
+                color: white;
+                background: rgb(202, 202, 202);
+                margin-block-end: 100px;
+                margin-block-start: 100px;
+                opacity: 70%;
+            }
+            
+            .subtitle h2:hover {
+                background: rgb(217, 176, 255);
+                background: linear-gradient(90deg, rgba(217, 176, 255, 0.8543862951807228) 12%, rgba(199, 95, 194, 0.8363140060240963) 61%, rgba(255, 0, 127, 0.5290850903614458) 100%);
+            }
+            
+            nav {
+                list-style: none;
+                background: rgb(76, 67, 78);
+                opacity: 50%;
+                text-align: center;
+                padding: 0;
+                margin: 0;
+                height: 50px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            
+            nav a {
+                display: inline-block;
+                font-size: 15px;
+                text-transform: uppercase;
+                color: white;
+                line-height: 50px;
+                width: 100px;
+            }
+            
+            nav a:hover {
+                background: violet;
+                color: black;
+            }
+            
+            .cards {
+                justify-self: center;
+            }
+            
+            .card {
+                width: 14rem;
+                padding: 25px;
+                display: inline-block;
+                margin-right: 50px;
+                margin-left: 50px;
+                width: 250px;
+                height: 350px;
+                text-align: center;
+                color: grey;
+            }
+            
+            .card-img-top {
+                width: 200px;
+                height: 200px;
+            }
+            
+            #wpp:hover {
+                background: rgb(224, 255, 176);
+                background: linear-gradient(90deg, rgba(224, 255, 176, 0.8543862951807228) 11%, rgba(95, 199, 98, 0.8363140060240963) 61%, rgba(0, 255, 238, 0.5290850903614458) 100%);
+            }
+            
+            #fb:hover {
+                background: rgb(224, 255, 176);
+                background: linear-gradient(90deg, rgba(224, 255, 176, 0.8543862951807228) 11%, rgba(95, 148, 199, 0.8363140060240963) 61%, rgba(0, 255, 238, 0.5290850903614458) 100%);
+            }
+            
+            #ig:hover {
+                background: rgb(255, 176, 176);
+                background: linear-gradient(90deg, rgba(255, 176, 176, 0.8543862951807228) 12%, rgba(199, 95, 188, 0.8363140060240963) 61%, rgba(255, 0, 0, 0.5290850903614458) 100%);
+            }
+            
+            p {
+                margin-block-start: 100px;
+                margin-block-end: 100px;
+                text-align: center;
+                font-size: 15px;
+                color: white;
+            }
